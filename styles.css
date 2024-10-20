@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8c5d6;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: #f05b72;
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    text-align: center;
+    color: #555;
+    font-size: 1.1em;
+}
+
+/* Seção de apresentação */
+#apresentacao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #fef7f9;
+}
+
+.apresentacao-texto {
+    max-width: 50%;
+}
+
+.apresentacao-img img {
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+/* Galeria */
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.galeria img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Contato */
+#contato {
+    padding: 50px;
+    background-color: #fef7f9;
+}
+
+#contato ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#contato ul li {
+    margin: 10px 0;
+}
+
+#contato ul li a {
+    color: #f05b72;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #f8c5d6;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
